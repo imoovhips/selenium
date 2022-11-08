@@ -11,6 +11,7 @@ public class Main {
         driver.get("https://www.delivery-club.ru/moscow");
 
         WebElement use = driver.findElement(By.xpath("//button[@class='header__search-button']"));
+        //
         use.click();
 
     }
